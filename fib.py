@@ -6,7 +6,7 @@ def fib(n):
 	while len(ar) < n+1:
 		ar.append(0)
 	if n <= 1:  
-        return n  
+        return n
     else:  
         if ar[n - 1] == 0:  
             ar[n - 1] = fibonacci(n - 1)  
